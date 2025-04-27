@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 md:pr-8 mb-8 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-cob-light mb-6">
-              Защита от телефонных мошенников
+              Центр осознанной безопасности
             </h1>
             <p className="text-xl text-cob-light/90 mb-8">
               Обучаем распознавать мошенников и защищать себя и своих близких от телефонного мошенничества

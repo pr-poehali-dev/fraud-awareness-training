@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Menu, X, Shield } from "lucide-react";
+import { Menu, X, EyeIcon } from "lucide-react";
 import { 
   NavigationMenu,
   NavigationMenuList,
@@ -39,7 +39,7 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <Link to="/" className="flex items-center">
-            <Shield className="h-8 w-8 mr-2 text-cob-light" />
+            <EyeIcon className="h-8 w-8 mr-2 text-cob-light" />
             <span className="text-xl font-bold text-cob-light">ЦОБ</span>
           </Link>
         </div>
